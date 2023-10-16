@@ -10,3 +10,21 @@ h1 {
     padding: 10px;
     background-color: rgba(45, 50, 60, 0.50);
 }
+
+.flexed {
+    display: flex;
+    flex-direction: row ;
+    gap: 2px;
+    width: 100vw;
+    height: 80vh;
+    bachground-color: blue;
+}
+
+.item {
+    flex: 0.4;
+    transition: flex 3s ease-out;
+}
+
+.item:hover {
+    flex: 10;
+}
