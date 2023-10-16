@@ -22,7 +22,7 @@ h1 {
 
 .item {
     flex: 0.4;
-    background-size: 100% auto;
+    background-size: cover;
     transition: flex 3s ease-out;
 }
 
